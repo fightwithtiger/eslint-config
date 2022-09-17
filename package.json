@@ -1,6 +1,6 @@
 {
   "name": "tegor/eslint-config-monorepo",
-  "version": "0.0.2",
+  "version": "0.0.1",
   "private": true,
   "packageManager": "pnpm@7.1.0",
   "author": "fightwithtiger <2284925818@qq.com> (https://github.com/fightwithtiger)",
