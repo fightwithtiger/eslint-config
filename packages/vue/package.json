@@ -1,5 +1,5 @@
 {
-  "name": "tegor/eslint-config-vue",
+  "name": "@tegor/eslint-config-vue",
   "version": "0.0.4",
   "description": "",
   "author": "fightwithtiger <2284925818@qq.com> (https://github.com/fightwithtiger)",
@@ -15,7 +15,7 @@
     "eslint": ">=7.4.0"
   },
   "dependencies": {
-    "tegor/eslint-config-ts": "workspace:*",
+    "@tegor/eslint-config-ts": "workspace:*",
     "eslint-plugin-vue": "^9.4.0"
   },
   "devDependencies": {
