@@ -1,6 +1,6 @@
 {
   "name": "@tegor/eslint-config",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "tegor ESLint config",
   "author": "fightwithtiger <2284925818@qq.com> (https://github.com/fightwithtiger)",
   "license": "MIT",
