@@ -2,9 +2,9 @@
   "name": "@tegor/eslint-config-basic",
   "version": "0.0.1",
   "description": "",
-  "author": "Anthony Fu <anthonyfu117@hotmail.com> (https://github.com/fightwithtiger)",
+  "author": "fightwithtiger <2284925818@qq.com> (https://github.com/fightwithtiger)",
   "license": "MIT",
-  "homepage": "https://github.com/fightwithtigereslint-config",
+  "homepage": "https://github.com/fightwithtiger/eslint-config",
   "keywords": [
     "eslint-config"
   ],

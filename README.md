@@ -1,31 +1,22 @@
-# @antfu/eslint-config
+# @tegor/eslint-config
 
-[![npm](https://img.shields.io/npm/v/@antfu/eslint-config?color=a1b858&label=)](https://npmjs.com/package/@antfu/eslint-config)
-
-- Single quotes, no semi
-- Auto fix for formatting (aimed to be used standalone without Prettier)
-- TypeScript, Vue, React out-of-box
-- Lint also for json, yaml, markdown
-- Sorted imports, dangling commas for cleaner commit diff
-- Reasonable defaults, best practices, only one-line of config
+[![npm](https://img.shields.io/npm/v/@tegor/eslint-config?color=a1b858&label=)](https://npmjs.com/package/@tegor/eslint-config)
 
 ## Usage
 
 ### Install
 
 ```bash
-pnpm add -D eslint @antfu/eslint-config
+pnpm add -D eslint @tegor/eslint-config
 ```
 
 ### Config `.eslintrc`
 
 ```json
 {
-  "extends": "@antfu"
+  "extends": "@tegor"
 }
 ```
-
-> You don't need `.eslintignore` normally as it has been provided by the preset.
 
 ### Add script for package.json
 
@@ -53,14 +44,6 @@ Create `.vscode/settings.json`
 }
 ```
 
-## Check Also
-
-- [antfu/dotfiles](https://github.com/fightwithtigerdotfiles) - My dotfiles
-- [antfu/vscode-settings](https://github.com/fightwithtigervscode-settings) - My VS Code settings
-- [antfu/eslint-config](https://github.com/fightwithtigereslint-config) - My ESLint config
-- [antfu/ts-starter](https://github.com/fightwithtigerts-starter) - My starter template for TypeScript library
-- [antfu/vitesse](https://github.com/fightwithtigervitesse) - My starter template for Vue & Vite app
-
 ## License
 
-[MIT](./LICENSE) License &copy; 2019-PRESENT [Anthony Fu](https://github.com/antfu)
+[MIT](./LICENSE) License &copy; 2022-PRESENT [dengtuo](https://github.com/fightwithtiger)
