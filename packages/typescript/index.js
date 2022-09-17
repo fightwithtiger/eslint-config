@@ -1,8 +1,8 @@
-const basic = require('tegor/eslint-config-basic')
+const basic = require('@tegor/eslint-config-basic')
 
 module.exports = {
   extends: [
-    'tegor/eslint-config-basic',
+    '@tegor/eslint-config-basic',
     'plugin:import/typescript',
     'plugin:@typescript-eslint/recommended',
   ],

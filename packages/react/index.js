@@ -1,7 +1,7 @@
 module.exports = {
   extends: [
     'plugin:react/recommended',
-    'tegor/eslint-config-ts',
+    '@tegor/eslint-config-ts',
   ],
   settings: {
     react: {
