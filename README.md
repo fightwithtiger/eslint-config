@@ -1,20 +1,20 @@
-# @tegor/eslint-config
+# tegor/eslint-config
 
-[![npm](https://img.shields.io/npm/v/@tegor/eslint-config?color=a1b858&label=)](https://npmjs.com/package/@tegor/eslint-config)
+[![npm](https://img.shields.io/npm/v/tegor/eslint-config?color=a1b858&label=)](https://npmjs.com/package/tegor/eslint-config)
 
 ## Usage
 
 ### Install
 
 ```bash
-pnpm add -D eslint @tegor/eslint-config
+pnpm add -D eslint tegor/eslint-config
 ```
 
 ### Config `.eslintrc`
 
 ```json
 {
-  "extends": "@tegor"
+  "extends": "tegor"
 }
 ```
 

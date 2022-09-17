@@ -1,5 +1,5 @@
 {
-  "name": "@tegor/eslint-config-react",
+  "name": "tegor/eslint-config-react",
   "version": "0.0.1",
   "description": "",
   "author": "fightwithtiger <2284925818@qq.com> (https://github.com/fightwithtiger)",
@@ -19,7 +19,7 @@
     "eslint": ">=7.4.0"
   },
   "dependencies": {
-    "@tegor/eslint-config-ts": "workspace:*",
+    "tegor/eslint-config-ts": "workspace:*",
     "eslint-plugin-react": "^7.31.1"
   },
   "devDependencies": {

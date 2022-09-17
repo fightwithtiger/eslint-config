@@ -5,14 +5,14 @@ importers:
   .:
     specifiers:
       '@antfu/ni': ^0.18.0
-      '@tegor/eslint-config': '*'
+      'tegor/eslint-config': '*'
       bumpp: ^8.2.1
       eslint: ^8.23.0
       eslint-plugin-tegor: workspace:*
       typescript: ^4.8.2
     devDependencies:
       '@antfu/ni': 0.18.0
-      '@tegor/eslint-config': link:packages/all
+      'tegor/eslint-config': link:packages/all
       bumpp: 8.2.1
       eslint: 8.23.1
       eslint-plugin-tegor: link:packages/eslint-plugin-tegor
@@ -20,8 +20,8 @@ importers:
 
   packages/all:
     specifiers:
-      '@tegor/eslint-config-react': workspace:*
-      '@tegor/eslint-config-vue': workspace:*
+      'tegor/eslint-config-react': workspace:*
+      'tegor/eslint-config-vue': workspace:*
       '@typescript-eslint/eslint-plugin': ^5.36.1
       '@typescript-eslint/parser': ^5.36.1
       eslint: ^8.23.0
@@ -37,8 +37,8 @@ importers:
       jsonc-eslint-parser: ^2.1.0
       yaml-eslint-parser: ^1.1.0
     dependencies:
-      '@tegor/eslint-config-react': link:../react
-      '@tegor/eslint-config-vue': link:../vue
+      'tegor/eslint-config-react': link:../react
+      'tegor/eslint-config-vue': link:../vue
       '@typescript-eslint/eslint-plugin': 5.37.0_uzffwd2kxyy6gwinwkcp25zmz4
       '@typescript-eslint/parser': 5.37.0_eslint@8.23.1
       eslint-plugin-eslint-comments: 3.2.0_eslint@8.23.1
@@ -101,13 +101,13 @@ importers:
 
   packages/react:
     specifiers:
-      '@tegor/eslint-config-ts': workspace:*
+      'tegor/eslint-config-ts': workspace:*
       eslint: ^8.23.0
       eslint-plugin-react: ^7.31.1
       react: ^18.2.0
       typescript: ^4.8.2
     dependencies:
-      '@tegor/eslint-config-ts': link:../typescript
+      'tegor/eslint-config-ts': link:../typescript
       eslint-plugin-react: 7.31.8_eslint@8.23.1
     devDependencies:
       eslint: 8.23.1
@@ -116,12 +116,12 @@ importers:
 
   packages/typescript:
     specifiers:
-      '@tegor/eslint-config-basic': workspace:*
+      'tegor/eslint-config-basic': workspace:*
       '@typescript-eslint/eslint-plugin': ^5.36.1
       '@typescript-eslint/parser': ^5.36.1
       eslint: ^8.23.0
     dependencies:
-      '@tegor/eslint-config-basic': link:../basic
+      'tegor/eslint-config-basic': link:../basic
       '@typescript-eslint/eslint-plugin': 5.37.0_uzffwd2kxyy6gwinwkcp25zmz4
       '@typescript-eslint/parser': 5.37.0_eslint@8.23.1
     devDependencies:
@@ -129,11 +129,11 @@ importers:
 
   packages/vue:
     specifiers:
-      '@tegor/eslint-config-ts': workspace:*
+      'tegor/eslint-config-ts': workspace:*
       eslint: ^8.23.0
       eslint-plugin-vue: ^9.4.0
     dependencies:
-      '@tegor/eslint-config-ts': link:../typescript
+      'tegor/eslint-config-ts': link:../typescript
       eslint-plugin-vue: 9.5.1_eslint@8.23.1
     devDependencies:
       eslint: 8.23.1

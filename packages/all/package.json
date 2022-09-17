@@ -1,5 +1,5 @@
 {
-  "name": "@tegor/eslint-config",
+  "name": "tegor/eslint-config",
   "version": "0.0.1",
   "description": "tegor ESLint config",
   "author": "fightwithtiger <2284925818@qq.com> (https://github.com/fightwithtiger)",
@@ -16,8 +16,8 @@
     "eslint": ">=7.4.0"
   },
   "dependencies": {
-    "@tegor/eslint-config-react": "workspace:*",
-    "@tegor/eslint-config-vue": "workspace:*",
+    "tegor/eslint-config-react": "workspace:*",
+    "tegor/eslint-config-vue": "workspace:*",
     "@typescript-eslint/eslint-plugin": "^5.36.1",
     "@typescript-eslint/parser": "^5.36.1",
     "eslint-plugin-eslint-comments": "^3.2.0",
