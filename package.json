@@ -6,6 +6,7 @@
   "author": "fightwithtiger <2284925818@qq.com> (https://github.com/fightwithtiger)",
   "license": "MIT",
   "scripts": {
+    "play": "pnpm run -C playground dev",
     "lint": "eslint .",
     "test": "pnpm -r run test",
     "prepare": "pnpm -r run stub",
